@@ -1,0 +1,24 @@
+C:\Users\Админ\Desktop\Видеоматериал\WPF\12 Лекция\12_Lesson\MVVMTools\bin\Debug\net5.0-windows\MVVMTools.deps.json
+C:\Users\Админ\Desktop\Видеоматериал\WPF\12 Лекция\12_Lesson\MVVMTools\bin\Debug\net5.0-windows\MVVMTools.dll
+C:\Users\Админ\Desktop\Видеоматериал\WPF\12 Лекция\12_Lesson\MVVMTools\bin\Debug\net5.0-windows\MVVMTools.pdb
+C:\Users\Админ\Desktop\Видеоматериал\WPF\12 Лекция\12_Lesson\MVVMTools\obj\Debug\net5.0-windows\MVVMTools.csproj.AssemblyReference.cache
+C:\Users\Админ\Desktop\Видеоматериал\WPF\12 Лекция\12_Lesson\MVVMTools\obj\Debug\net5.0-windows\MVVMTools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Админ\Desktop\Видеоматериал\WPF\12 Лекция\12_Lesson\MVVMTools\obj\Debug\net5.0-windows\MVVMTools.AssemblyInfoInputs.cache
+C:\Users\Админ\Desktop\Видеоматериал\WPF\12 Лекция\12_Lesson\MVVMTools\obj\Debug\net5.0-windows\MVVMTools.AssemblyInfo.cs
+C:\Users\Админ\Desktop\Видеоматериал\WPF\12 Лекция\12_Lesson\MVVMTools\obj\Debug\net5.0-windows\MVVMTools.csproj.CoreCompileInputs.cache
+C:\Users\Админ\Desktop\Видеоматериал\WPF\12 Лекция\12_Lesson\MVVMTools\obj\Debug\net5.0-windows\MVVMTools.dll
+C:\Users\Админ\Desktop\Видеоматериал\WPF\12 Лекция\12_Lesson\MVVMTools\obj\Debug\net5.0-windows\refint\MVVMTools.dll
+C:\Users\Админ\Desktop\Видеоматериал\WPF\12 Лекция\12_Lesson\MVVMTools\obj\Debug\net5.0-windows\MVVMTools.pdb
+C:\Users\Админ\Desktop\Видеоматериал\WPF\12 Лекция\12_Lesson\MVVMTools\obj\Debug\net5.0-windows\ref\MVVMTools.dll
+C:\Users\Админ\Desktop\ДЗ\WPF\экзамен\WpfPazzle\MVVMTools\bin\Debug\net5.0-windows\MVVMTools.deps.json
+C:\Users\Админ\Desktop\ДЗ\WPF\экзамен\WpfPazzle\MVVMTools\bin\Debug\net5.0-windows\MVVMTools.dll
+C:\Users\Админ\Desktop\ДЗ\WPF\экзамен\WpfPazzle\MVVMTools\bin\Debug\net5.0-windows\MVVMTools.pdb
+C:\Users\Админ\Desktop\ДЗ\WPF\экзамен\WpfPazzle\MVVMTools\obj\Debug\net5.0-windows\MVVMTools.csproj.AssemblyReference.cache
+C:\Users\Админ\Desktop\ДЗ\WPF\экзамен\WpfPazzle\MVVMTools\obj\Debug\net5.0-windows\MVVMTools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Админ\Desktop\ДЗ\WPF\экзамен\WpfPazzle\MVVMTools\obj\Debug\net5.0-windows\MVVMTools.AssemblyInfoInputs.cache
+C:\Users\Админ\Desktop\ДЗ\WPF\экзамен\WpfPazzle\MVVMTools\obj\Debug\net5.0-windows\MVVMTools.AssemblyInfo.cs
+C:\Users\Админ\Desktop\ДЗ\WPF\экзамен\WpfPazzle\MVVMTools\obj\Debug\net5.0-windows\MVVMTools.csproj.CoreCompileInputs.cache
+C:\Users\Админ\Desktop\ДЗ\WPF\экзамен\WpfPazzle\MVVMTools\obj\Debug\net5.0-windows\MVVMTools.dll
+C:\Users\Админ\Desktop\ДЗ\WPF\экзамен\WpfPazzle\MVVMTools\obj\Debug\net5.0-windows\refint\MVVMTools.dll
+C:\Users\Админ\Desktop\ДЗ\WPF\экзамен\WpfPazzle\MVVMTools\obj\Debug\net5.0-windows\MVVMTools.pdb
+C:\Users\Админ\Desktop\ДЗ\WPF\экзамен\WpfPazzle\MVVMTools\obj\Debug\net5.0-windows\ref\MVVMTools.dll
