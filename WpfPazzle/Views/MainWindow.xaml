@@ -1,0 +1,48 @@
+﻿<Window x:Class="WpfPazzle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPazzle"
+        mc:Ignorable="d"
+        Name="window"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+
+        <Label Content="{Binding Time}" ContentStringFormat="Time : {0}" />
+
+        <ItemsControl Grid.Row="1" ItemsSource="{Binding Parts}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Rows="4" Columns="6" />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Button Command="{Binding ElementName=window, Path=DataContext.ClickCommand}" CommandParameter="{Binding}">
+                        <Image Stretch="Fill" Source="{Binding Path}" />
+                    </Button>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <DockPanel Grid.Row="2" LastChildFill="false">
+            <Menu DockPanel.Dock="Left" Width="40" Height="30" Margin="5">
+                <MenuItem Header="Menu">
+                    <MenuItem Header="Start">
+                        <MenuItem Header="Forest" Command="{Binding ChoiseImageForest}" />
+                        <MenuItem Header="Lake" Command="{Binding ChoiseImageLake}" />
+                        <MenuItem Header="Waterfall" Command="{Binding ChoiseImageWaterfall}" />
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+            <Button DockPanel.Dock="Left" Width="40" Margin="5" Command="{Binding ElementName=window, Path=DataContext.ClickButtonShow}">Show</Button>
+        </DockPanel>
+    </Grid>
+</Window>
