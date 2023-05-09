@@ -1,0 +1,308 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\img\1.jpg" />
+    <None Remove="Views\img\10.jpg" />
+    <None Remove="Views\img\11.jpg" />
+    <None Remove="Views\img\12.jpg" />
+    <None Remove="Views\img\13.jpg" />
+    <None Remove="Views\img\14.jpg" />
+    <None Remove="Views\img\15.jpg" />
+    <None Remove="Views\img\16.jpg" />
+    <None Remove="Views\img\17.jpg" />
+    <None Remove="Views\img\18.jpg" />
+    <None Remove="Views\img\19.jpg" />
+    <None Remove="Views\img\2.jpg" />
+    <None Remove="Views\img\20.jpg" />
+    <None Remove="Views\img\21.jpg" />
+    <None Remove="Views\img\22.jpg" />
+    <None Remove="Views\img\23.jpg" />
+    <None Remove="Views\img\24.jpg" />
+    <None Remove="Views\img\3.jpg" />
+    <None Remove="Views\img\4.jpg" />
+    <None Remove="Views\img\5.jpg" />
+    <None Remove="Views\img\6.jpg" />
+    <None Remove="Views\img\7.jpg" />
+    <None Remove="Views\img\8.jpg" />
+    <None Remove="Views\img\9.jpg" />
+    <None Remove="Views\img\Lake\1.jpg" />
+    <None Remove="Views\img\Lake\10.jpg" />
+    <None Remove="Views\img\Lake\11.jpg" />
+    <None Remove="Views\img\Lake\12.jpg" />
+    <None Remove="Views\img\Lake\13.jpg" />
+    <None Remove="Views\img\Lake\14.jpg" />
+    <None Remove="Views\img\Lake\15.jpg" />
+    <None Remove="Views\img\Lake\16.jpg" />
+    <None Remove="Views\img\Lake\17.jpg" />
+    <None Remove="Views\img\Lake\18.jpg" />
+    <None Remove="Views\img\Lake\19.jpg" />
+    <None Remove="Views\img\Lake\2.jpg" />
+    <None Remove="Views\img\Lake\20.jpg" />
+    <None Remove="Views\img\Lake\21.jpg" />
+    <None Remove="Views\img\Lake\22.jpg" />
+    <None Remove="Views\img\Lake\23.jpg" />
+    <None Remove="Views\img\Lake\24.jpg" />
+    <None Remove="Views\img\Lake\3.jpg" />
+    <None Remove="Views\img\Lake\4.jpg" />
+    <None Remove="Views\img\Lake\5.jpg" />
+    <None Remove="Views\img\Lake\6.jpg" />
+    <None Remove="Views\img\Lake\7.jpg" />
+    <None Remove="Views\img\Lake\8.jpg" />
+    <None Remove="Views\img\Lake\9.jpg" />
+    <None Remove="Views\img\Waterfall\1.jpg" />
+    <None Remove="Views\img\Waterfall\10.jpg" />
+    <None Remove="Views\img\Waterfall\11.jpg" />
+    <None Remove="Views\img\Waterfall\12.jpg" />
+    <None Remove="Views\img\Waterfall\13.jpg" />
+    <None Remove="Views\img\Waterfall\14.jpg" />
+    <None Remove="Views\img\Waterfall\15.jpg" />
+    <None Remove="Views\img\Waterfall\16.jpg" />
+    <None Remove="Views\img\Waterfall\17.jpg" />
+    <None Remove="Views\img\Waterfall\18.jpg" />
+    <None Remove="Views\img\Waterfall\19.jpg" />
+    <None Remove="Views\img\Waterfall\2.jpg" />
+    <None Remove="Views\img\Waterfall\20.jpg" />
+    <None Remove="Views\img\Waterfall\21.jpg" />
+    <None Remove="Views\img\Waterfall\22.jpg" />
+    <None Remove="Views\img\Waterfall\23.jpg" />
+    <None Remove="Views\img\Waterfall\24.jpg" />
+    <None Remove="Views\img\Waterfall\3.jpg" />
+    <None Remove="Views\img\Waterfall\4.jpg" />
+    <None Remove="Views\img\Waterfall\5.jpg" />
+    <None Remove="Views\img\Waterfall\6.jpg" />
+    <None Remove="Views\img\Waterfall\7.jpg" />
+    <None Remove="Views\img\Waterfall\8.jpg" />
+    <None Remove="Views\img\Waterfall\9.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MVVMTools\MVVMTools.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Views\img\Forest\1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\10.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\11.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\12.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\13.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\14.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\15.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\16.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\17.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\18.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\19.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\20.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\21.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\22.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\23.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\24.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\6.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\8.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Forest\9.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\10.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\11.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\12.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\13.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\14.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\15.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\16.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\17.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\18.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\19.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\20.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\21.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\22.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\23.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\24.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\6.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\8.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Lake\9.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\10.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\11.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\12.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\13.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\14.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\15.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\16.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\17.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\18.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\19.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\20.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\21.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\22.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\23.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\24.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\6.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\8.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\img\Waterfall\9.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

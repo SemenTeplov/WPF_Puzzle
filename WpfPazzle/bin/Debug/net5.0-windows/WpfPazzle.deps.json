@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WpfPazzle/1.0.0": {
+        "dependencies": {
+          "MVVMTools": "1.0.0"
+        },
+        "runtime": {
+          "WpfPazzle.dll": {}
+        }
+      },
+      "MVVMTools/1.0.0": {
+        "runtime": {
+          "MVVMTools.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfPazzle/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MVVMTools/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
